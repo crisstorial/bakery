@@ -1,0 +1,424 @@
+@charset "utf-8";
+
+html{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#banner{
+    background-image: url("../img/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    isplay: flex;
+    lex-direction: column;
+} 
+
+header{
+    text-align:center;
+    font-style: oblique;
+    background-color: rgba(243, 235, 220, 0.3);
+    height: 155px;
+    display: flex;
+    color: rgb(43, 2, 2);
+    lign-items: center;
+    width:100%;
+    padding-left: 20px;
+
+}
+
+.hat h1{
+    /* 5loat:center; */
+    display: inline-block;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-style: Rosewood Std Regular;
+    font-weight: 700;
+    color: rgb(43, 2, 2);
+    padding-right: 20px;
+}
+
+/* 1{
+    margin: 0px;
+    text-align: center;
+    text-transform: capitalize;
+    color: blue;
+} */
+.logo{
+    background-color:;
+    display: ;
+}
+.logo img{
+    float: ;
+    width:200px;
+    height:150px;
+}
+
+.f{
+      
+    color: white;
+    font-size: 25px;
+}
+
+
+
+.navbar{
+    /* padding: 0px 0px 0px 0px; */
+    background-color: rgb(122, 56, 9);
+    color: white;
+}
+
+
+.navbar-nav li{
+    margin-left: 10px;
+    margin-right: 10px;
+    z-index: 2;
+    color: white;
+    text-align: center;
+}
+
+
+
+.navbar-nav li a{
+    font-size: 17px;
+    /* padding: 15px 60px; */
+    text-transform: uppercase;
+    color: white;
+}
+
+.navbar-nav li a:hover{
+   
+    border-bottom: groove;
+    border-width: thin;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    transition: 0.5s all;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    height: 39px;
+}
+
+
+.current{
+    color: #f53a07;
+    font-weight: bold;
+    font-size:16px;
+    order-bottom:  3px solid rgb(255, 255, 255);
+    adding-left: 10px;
+    adding-right: 10px;
+    padding-bottom:px;
+}
+
+
+/* body style */
+
+.card{
+    text-align: center;
+    border: none;
+    box-shadow: none;
+}
+
+.card-title{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#body .row{
+    order: groove;
+    order-color: gray;
+    height: auto;
+    margin-top: 10px;
+    padding-top: 0px 30px 0px 30px;
+    ackground-color: red;
+    
+}
+
+#body .bx{
+    border:;
+    height: 160px;
+}
+
+#body .box-1 h1{
+font-size: 22px
+}
+
+
+#body .box-1{
+    order: groove;
+    display: inline;
+    font-size: 14px;
+    margin: 25px;
+    padding: 5px;
+    height: auto;
+    text-align: center;
+    align-items: center;
+    
+    
+}
+
+#body img{
+    background-size: contain;
+}
+
+/* End Body style */
+
+
+/* Footer */
+
+
+.page-footer{
+    background-color: rgb(83, 38, 6);
+}
+
+.page-footer .row{
+    order: groove;
+    font-size: 15px;
+}
+.a-lnk p{
+    color: cornflowerblue;
+    font-size: 15px;
+    text-align: left;
+}
+
+
+
+
+.fcont-l{
+    text-align: left;
+}
+
+.cont-us{
+    text-align: center;
+}
+
+.clearfix{
+    background-color: white;
+}
+
+.m-lnk{
+    font-size: 28px;
+    margin: 10px;
+}
+
+#footer .box-1{
+    border: groove;
+    display: inline;
+    color: rgb(255, 255, 255);
+    margin: 2px;
+    padding: 5px;
+    height: auto;
+    ext-align: center;
+    lign-items: center;
+}
+#footer .box-1 .bx-f1{
+    border: groove;
+    text-align: left;
+}
+
+#footer .box-1 .bx-f2{
+    border: groove;
+    text-align: left;
+}
+
+#footer .box-1 .bx-f3{
+    border: groove;
+    text-align: center;
+}
+
+
+.lnk{
+    border: groove;
+    
+}
+
+
+#footer .box-1 .bx-f4{
+    border: groove;
+    text-align: right;
+    
+}
+
+#footer h1{
+    font-size: 25px;
+}
+
+#footer p{
+    text-align: center;
+    font-size: 20px;
+    line-height: 10px;
+}
+
+#footer .copyright{
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+}
+
+/* End of footer */
+
+
+
+
+.cent{
+    color: #e8491d;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;;
+}
+
+
+
+
+@media(max-width:769px){
+
+     /* #banner{
+        height: 100vh;
+    }  */
+ 
+
+    #banner{
+        background-image: url("../img/banner.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: auto;
+        width: 100%;
+    } 
+
+    .logo {
+        float:center;
+        
+        display: inline-block;
+        background-color:;
+    }
+
+
+    header{
+        display: block;
+        height: 220px;
+        text-align: center;
+        font-weight: 200px;
+    }
+    
+
+    .hat h1{
+        font-size: 25px;
+        text-align: center;
+        padding-top: 0px;
+        text-transform: uppercase;
+        font-weight: 200px;
+        color: rgb(43, 2, 2);
+        isplay:inline-block;
+    }
+
+    .hat h2{
+        font-size: 20px;
+        text-align: center;
+        color: rgb(43, 2, 2);
+        text-transform: capitalize;
+    }
+
+ 
+
+
+  
+
+    .f:hover, .f:focus{
+        background-color: rgb(122, 56, 9);
+        border-color: rgb(255, 255, 255);
+    }
+
+  
+    .navbar-nav li {
+        background-color: rgb(122, 56, 9);
+        border: none;
+        border-bottom: groove;
+        border-width: thin;
+        border-bottom-color: rgb(255, 255, 255);
+        text-align: left;
+        padding-top: 10px;
+        argin-left: 45px;
+    }
+    
+    .navbar-nav li a:hover{
+        border-right: none;
+        border-left: none;
+        border-bottom: none;
+        color: white;
+        order-left: 3px solid rgb(255, 255, 255);
+        ackground-color: yellow !important;
+        text-align: left;
+    }
+
+    .current{
+        color: #e8491d;
+        font-weight: bold;
+        font-size:18px ;
+        border-left: 3px solid rgb(255, 255, 255);
+        border-bottom: none;
+        padding-left: 10px;
+        padding-bottom:;
+    }
+
+    #body .row{
+    border: none;
+    }
+
+
+
+    #body .card{  
+        border: none;
+        border: ;
+        
+        border-bottom: groove;
+        border-width: thin;
+        border-bottom-color: rgb(170, 77, 10);
+    }
+
+    #body .bx{
+        border:;
+        height: auto;
+    }
+
+    #footer .box-1{
+        border: groove;
+        isplay: inline;
+        olor: white;
+        argin: 2px;
+        adding: 5px;
+        eight: auto;
+        ext-align: center;
+        lign-items: center;
+        border: none;
+        border-width: thin;
+        border-bottom: groove;
+        border-bottom-color: rgb(170, 77, 10);
+
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
