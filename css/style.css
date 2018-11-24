@@ -64,6 +64,13 @@ header{
       
     color: white;
     font-size: 25px;
+    ackground-color: transparent;
+    widows: 50px;
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    word-spacing: 0%
+    
 }
 
 
@@ -274,6 +281,126 @@ font-size: 22px
 }
 
 
+/* form footer */
+
+
+
+
+
+.form-style-6
+    {
+    font: 95% Arial, Helvetica, sans-serif;
+    background:  hsl(25, 86%, 17%);
+}
+.form-style-6 h3{
+    background: saddlebrown;
+    padding: 20px;
+    margin: 0px;
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    color: #ffffff;
+    
+}
+.form-style-6 input[type="text"],
+.form-style-6 input[type="password"],
+.form-style-6 input[type="datetime"],
+.form-style-6 input[type="username"],
+.form-style-6 input[type="number"],
+.form-style-6 input[type="search"],
+.form-style-6 input[type="textarea"],
+.form-style-6 input[type="url"],
+.form-style-6 textarea,
+.form-style-6 select 
+{
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    idth: 100%;
+    height: 50px;
+    background-color: transparent;
+	border: 0px solid;
+    argin-bottom: 3%;
+	border-bottom: 2px solid white;
+    adding: 3%;
+    margin: 0%;
+    color: white;
+    font-size: 18px;
+    ont: 95% Arial, Helvetica, sans-serif;
+}
+    
+    
+    
+.form-style-6 input[type="text"]:focus,
+.form-style-6 input[type="email"]:focus,
+.form-style-6 input[type="date"]:focus,
+.form-style-6 input[type="datetime"]:focus,
+.form-style-6 input[type="password"]:focus,
+.form-style-6 input[type="number"]:focus,
+.form-style-6 input[type="search"]:focus,
+.form-style-6 input[type="time"]:focus,
+.form-style-6 input[type="url"]:focus,
+.form-style-6 textarea:focus,
+.form-style-6 select:focus
+{
+    ox-shadow: 0 0 5px saddlebrown;
+    adding: 3%;
+	border: 0px solid;
+	border-bottom: 2px solid saddlebrown;
+    border: 1px solid white;
+}
+    
+    
+    
+
+.form-style-6 input[type="submit"],
+.form-style-6 input[type="button"]
+    
+    {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    eight: 60px;
+    padding: %;
+    background: saddlebrown;
+    order-bottom: 2px solid saddlebrown;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;    
+    color: #fff;
+    font-size: 20px;
+}
+    
+    
+.form-style-6 input[type="submit"]:hover,
+.form-style-6 input[type="button"]:hover
+    
+{
+    background: saddlebrown;
+
+}
+
+
+
+
+
+
+
+
+/* form footer end */
+
+
+
+
+
+
+
 
 
 @media(max-width:769px){
@@ -384,6 +511,10 @@ font-size: 22px
     #body .bx{
         border:;
         height: auto;
+    }
+
+    .pis{
+    min-height: 10px;
     }
 
     #footer .box-1{
