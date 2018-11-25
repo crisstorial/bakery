@@ -181,6 +181,12 @@ font-size: 22px
 
 .page-footer{
     background-color: rgb(83, 38, 6);
+    
+}
+
+
+row{
+    border:groove;
 }
 
 .page-footer .row{
@@ -210,7 +216,7 @@ font-size: 22px
 
 .m-lnk{
     font-size: 28px;
-    margin: 10px;
+    argin: 10px;
 }
 
 #footer .box-1{
@@ -287,17 +293,18 @@ font-size: 22px
 
 
 
-.form-style-6
+form-style-6
     {
-    font: 95% Arial, Helvetica, sans-serif;
+    ont: 95% Arial, Helvetica, sans-serif;
     background:  hsl(25, 86%, 17%);
 }
 .form-style-6 h3{
     background: saddlebrown;
     padding: 20px;
+
     margin: 0px;
-    font-size: 30px;
-    font-weight: 300;
+    font-size: 20px;
+    font-weight: bold;
     text-align: center;
     color: #ffffff;
     
@@ -322,6 +329,7 @@ font-size: 22px
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     idth: 100%;
+    border: thin;
     height: 50px;
     background-color: transparent;
 	border: 0px solid;
@@ -350,9 +358,11 @@ font-size: 22px
 {
     ox-shadow: 0 0 5px saddlebrown;
     adding: 3%;
-	border: 0px solid;
-	border-bottom: 2px solid saddlebrown;
-    border: 1px solid white;
+    order: thin;
+    border: none;	
+    order: 0px solid;
+	order-bottom: 2px solid saddlebrown;
+    order: 1px solid white;
 }
     
     
@@ -366,7 +376,7 @@ font-size: 22px
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     width: 100%;
-    eight: 60px;
+    height: 60px;
     padding: %;
     background: saddlebrown;
     order-bottom: 2px solid saddlebrown;
@@ -513,9 +523,12 @@ font-size: 22px
         height: auto;
     }
 
-    .pis{
-    min-height: 10px;
+    
+        
+
     }
+
+   
 
     #footer .box-1{
         border: groove;
